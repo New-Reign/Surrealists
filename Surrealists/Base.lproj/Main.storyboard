@@ -48,6 +48,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gvK-ys-HbH" kind="push" id="1zK-3f-kvS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v84-0C-UY1">
                                 <rect key="frame" x="160" y="64" width="160" height="252"/>
@@ -132,7 +135,7 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fo2-hr-ghy">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fo2-hr-ghy">
                                 <rect key="frame" x="20" y="165" width="205" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
@@ -166,6 +169,54 @@ At the outbreak of World War II, Sage returned again to New York, where she used
             </objects>
             <point key="canvasLocation" x="1028" y="-567"/>
         </scene>
+        <!--View Controller - Leonora Carrington-->
+        <scene sceneID="G2T-9J-NH6">
+            <objects>
+                <viewController id="gvK-ys-HbH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g78-Eo-447"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zzj-xJ-1WH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9uF-Yb-qyq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LeonoraCarrington2" translatesAutoresizingMaskIntoConstraints="NO" id="Yds-S2-ONb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAy-0S-irA">
+                                <rect key="frame" x="20" y="82" width="280" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50025475543478259" green="0.50025475543478259" blue="0.50025475543478259" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">(1917-2011) Leonora Carrington was born in Clayton Green, Lancashire, England to a wealthy textile manufacturer. Her rebellious nature resulted in expulsion from two schools. Her early education was undertaken by governesses, tutors, and nuns. In her teens, her family sent her to Florence, Italy, where she attended Mrs. Penrose's Academy of Art. Returning to England, she studied at the Chelsea School of Art and later the Ozenfant Academy in London.
+
+Leonora saw her first surrealist painting at the age of ten and later met many Surrealists, including Paul Éluard. While her father discouraged her career in art, her mother, Maureeen Moorhead, encouraged it, giving her a copy of Herbert Read's book "Surrealism" (1936).
+
+Carrington was attracted to Max Ernst's work long before she met him in 1937. The two bonded in Paris, whereupon Ernst separated from his wife. The next year they moved to Saint Martin d'Archèche, in the south of France. They spent years there, collaborating on paintings, sculptures, and decorative arts.
+
+At the outbreak of World War II, Ernst was repeatedly arrested, but eventually escaped to America. Carrington was devastated, and fled to Spain where she had a nervous breakdown and was institutionalized. With the help of friends, she was smuggled to Lisbon, where she sought asylum at the Mexican Embassy. To obtain passage to Mexico, she agreed to a marriage of convince to the Mexican Ambasidor, Renato Leduc, a friend of Picasso. Except for a brief period in New York, she lived and worked in Mexico the rest of her life.
+
+Her first major exhibition was in 1957 in New York, where she became an instant celebrity, being the only professional, woman, English painter of note. She authored several books. Her artwork was often exhibited in conjunction with fellow surrealists Remedios Varo and Kati Horna.
+
+Leonora had a fascination for horses, which she incorporated in both her artwork and her writings. She also developed her own symbology, using an image of a candlestick, for example, to refer to her family. She was one of the last surviving surrealist artists, and set a Christie's auction record for the highest price ($713,000US) paid for work by a living surrealist painter.
+
+[Daravault, 1950]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Leonora Carrington" id="yGz-v9-Av4">
+                        <barButtonItem key="backBarButtonItem" title="Surrealists" id="isQ-V0-ivU"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QIu-JC-4ec" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="107"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="sFp-DA-6Iz">
             <objects>
@@ -187,6 +238,7 @@ At the outbreak of World War II, Sage returned again to New York, where she used
         <image name="KaySage1" width="160" height="256"/>
         <image name="KaySage2" width="787" height="1024"/>
         <image name="LeonoraCarrington1" width="160" height="256"/>
+        <image name="LeonoraCarrington2" width="770" height="941"/>
         <image name="RemediosVaro1" width="160" height="256"/>
         <image name="RemediosVaro2" width="1152" height="1536"/>
     </resources>
