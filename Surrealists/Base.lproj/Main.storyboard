@@ -57,6 +57,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="giN-Gp-X2O" kind="push" id="9Wb-VS-0oZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -113,6 +116,56 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
             </objects>
             <point key="canvasLocation" x="616" y="-567"/>
         </scene>
+        <!--View Controller - Kay Sage-->
+        <scene sceneID="xYd-gY-DwG">
+            <objects>
+                <viewController id="giN-Gp-X2O" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JMW-nD-c8j"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Vc-8V-Ayw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XUt-4q-mq4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KaySage2" translatesAutoresizingMaskIntoConstraints="NO" id="OGx-6E-0ZS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fo2-hr-ghy">
+                                <rect key="frame" x="20" y="165" width="205" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+
+Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
+
+In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the surrealist art movement. She embraced the new style and began painting in earnest. Art historian Whitney Chadwick said that Sage’s paintings were “imbued with an aura of purified form and a sense of motionlessness and impending doom found nowhere else in Surrealism.” There she met her future husband, and possibly her greatest influence, fellow surrealist Yves Tanguy.
+
+(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+
+Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
+
+In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the surrealist art movement. She embraced the new style and began painting in earnest. Art historian Whitney Chadwick said that Sage’s paintings were “imbued with an aura of purified form and a sense of motionlessness and impending doom found nowhere else in Surrealism.” There she met her future husband, and possibly her greatest influence, fellow surrealist Yves Tanguy.
+
+At the outbreak of World War II, Sage returned again to New York, where she used her wealth and influence to raise awareness of surrealism in the United States, and where she finally established herself as a successful, and widely praised, artist. Sage did the bulk of her mature work between 1940, when she married Tanguy, and 1955, when he died suddenly from a cerebral hemorrhage.
+
+[I Saw Three Cities, 1944]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kay Sage" id="E27-nV-pLZ">
+                        <barButtonItem key="backBarButtonItem" title="Surrealists" id="atR-N7-ZNL"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uHV-2b-WBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="-567"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="sFp-DA-6Iz">
             <objects>
@@ -132,6 +185,7 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
     <resources>
         <image name="FridaKahlo1" width="160" height="256"/>
         <image name="KaySage1" width="160" height="256"/>
+        <image name="KaySage2" width="787" height="1024"/>
         <image name="LeonoraCarrington1" width="160" height="256"/>
         <image name="RemediosVaro1" width="160" height="256"/>
         <image name="RemediosVaro2" width="1152" height="1536"/>
