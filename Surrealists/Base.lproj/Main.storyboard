@@ -19,7 +19,7 @@
                             <userLayoutGuide location="160" affinity="minX"/>
                         </userGuides>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SJ-zV-3gE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SJ-zV-3gE">
                                 <rect key="frame" x="0.0" y="64" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -31,7 +31,7 @@
                                     <segue destination="bZf-e6-vzh" kind="push" id="X9h-e0-Fgo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htI-OF-x9U">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htI-OF-x9U">
                                 <rect key="frame" x="0.0" y="316" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -43,7 +43,7 @@
                                     <segue destination="AKf-Iu-adw" kind="push" id="kqd-fX-OCe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHy-KB-fcu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHy-KB-fcu">
                                 <rect key="frame" x="160" y="316" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -55,7 +55,7 @@
                                     <segue destination="gvK-ys-HbH" kind="push" id="1zK-3f-kvS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v84-0C-UY1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v84-0C-UY1">
                                 <rect key="frame" x="160" y="64" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -69,6 +69,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="htI-OF-x9U" secondAttribute="bottom" id="3UC-V5-5b6"/>
+                            <constraint firstItem="htI-OF-x9U" firstAttribute="height" secondItem="hHy-KB-fcu" secondAttribute="height" id="7E1-LU-NyY"/>
+                            <constraint firstItem="7SJ-zV-3gE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="8FL-CS-uRJ"/>
+                            <constraint firstItem="htI-OF-x9U" firstAttribute="height" secondItem="7SJ-zV-3gE" secondAttribute="height" id="AZ4-gn-vs5"/>
+                            <constraint firstAttribute="trailing" secondItem="hHy-KB-fcu" secondAttribute="trailing" id="COd-v3-P8S"/>
+                            <constraint firstItem="htI-OF-x9U" firstAttribute="top" secondItem="7SJ-zV-3gE" secondAttribute="bottom" id="PFd-90-e9B"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hHy-KB-fcu" secondAttribute="bottom" id="Wen-Wa-v7i"/>
+                            <constraint firstItem="v84-0C-UY1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="X6T-T0-2go"/>
+                            <constraint firstItem="htI-OF-x9U" firstAttribute="height" secondItem="v84-0C-UY1" secondAttribute="height" id="XOC-w5-ZHL"/>
+                            <constraint firstAttribute="trailing" secondItem="v84-0C-UY1" secondAttribute="trailing" id="kJ9-vU-bSN"/>
+                            <constraint firstItem="hHy-KB-fcu" firstAttribute="top" secondItem="v84-0C-UY1" secondAttribute="bottom" id="lpR-Q3-Jxk"/>
+                            <constraint firstItem="hHy-KB-fcu" firstAttribute="leading" secondItem="htI-OF-x9U" secondAttribute="trailing" id="pBC-UU-6O2"/>
+                            <constraint firstItem="v84-0C-UY1" firstAttribute="leading" secondItem="7SJ-zV-3gE" secondAttribute="trailing" id="r3b-S7-w82"/>
+                            <constraint firstItem="7SJ-zV-3gE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="r4F-VS-tlp"/>
+                            <constraint firstItem="htI-OF-x9U" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="rLo-yP-YMN"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Woman Surrealists" id="A48-Qc-A0S">
                         <barButtonItem key="backBarButtonItem" title="Surrealists" id="Ipx-T8-Q5d"/>
@@ -90,12 +107,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FridaKahlo2" translatesAutoresizingMaskIntoConstraints="NO" id="SkV-Cp-zyx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FridaKahlo2" translatesAutoresizingMaskIntoConstraints="NO" id="SkV-Cp-zyx">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXN-d5-HKo">
-                                <rect key="frame" x="20" y="85" width="280" height="131"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXN-d5-HKo">
+                                <rect key="frame" x="20" y="74" width="280" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50492527173913038" green="0.50492527173913038" blue="0.50492527173913038" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">(1907-1954) Born Magdalena Carmen Frieda Kahlo y Caldrón, Frida Kahlo lived almost her entire life in the La Casa Azul (The Blue House), in what was then the outskirts of Mexico City. Her father, Guillermo Kahlo (born Carl Wilhelm Kahlo), was a German immigrant, and photographer by trade. Her mother, Matilde Calderón y Gonzalez, was of Amerindian (an indigenous South American people) and Spanish ancestry. Guillermo married Matilde after the death of his first wife, and they had four daughters, Frida being the third.
@@ -115,6 +132,16 @@ Kahlo embraced indigenous Mexican culture, often combining elements of religious
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VXN-d5-HKo" firstAttribute="centerX" secondItem="SkV-Cp-zyx" secondAttribute="centerX" id="HgQ-H7-VpU"/>
+                            <constraint firstItem="cGb-lz-OZB" firstAttribute="top" secondItem="VXN-d5-HKo" secondAttribute="bottom" constant="250" id="M9Q-bS-xAF"/>
+                            <constraint firstItem="SkV-Cp-zyx" firstAttribute="leading" secondItem="jak-qG-B2P" secondAttribute="leading" id="XhD-ug-hAV"/>
+                            <constraint firstAttribute="bottom" secondItem="SkV-Cp-zyx" secondAttribute="bottom" id="aiH-Xl-hOo"/>
+                            <constraint firstItem="SkV-Cp-zyx" firstAttribute="top" secondItem="jak-qG-B2P" secondAttribute="top" id="bHk-uZ-4N2"/>
+                            <constraint firstItem="VXN-d5-HKo" firstAttribute="leading" secondItem="jak-qG-B2P" secondAttribute="leading" constant="20" symbolic="YES" id="fXi-fK-gJ1"/>
+                            <constraint firstItem="VXN-d5-HKo" firstAttribute="top" secondItem="qgZ-U7-POT" secondAttribute="bottom" constant="10" id="kYq-38-IkG"/>
+                            <constraint firstAttribute="trailing" secondItem="VXN-d5-HKo" secondAttribute="trailing" constant="20" symbolic="YES" id="kZS-Cz-M2s"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Frida Kahlo" id="i8L-Cy-XDg">
                         <barButtonItem key="backBarButtonItem" title="Surrealists" id="TVl-S5-aLw"/>
